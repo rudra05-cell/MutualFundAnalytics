@@ -1,0 +1,7 @@
+first_year,transaction_type,num_transactions,total_invested_cr,avg_amount,unique_investors
+2024,Lumpsum,8029,204.31,254463.09,3703
+2024,Redemption,4921,123.31,250571.61,2962
+2024,Sip,19549,21.5,10996.89,4624
+2025,Lumpsum,66,1.67,253594.92,57
+2025,Redemption,46,1.15,249187.13,44
+2025,Sip,167,0.23,13505.21,138
