@@ -47,7 +47,7 @@ def save(fig, name):
     p = CHARTS_DIR / f"{name}.png"
     fig.savefig(p, dpi=130, bbox_inches="tight")
     plt.close(fig)
-    print(f"   {name}.png")
+    print(f"  ✅  {name}.png")
 
 
 # ── C1: NAV Trends — 8 flagship schemes ─────────────────────

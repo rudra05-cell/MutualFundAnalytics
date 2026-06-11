@@ -1,4 +1,46 @@
-data/db/*.db  
-*.db  
-__pycache__/  
-.ipynb_checkpoints/ 
+# ============================================================
+# Bluestock Fintech Capstone — .gitignore
+# ============================================================
+
+# Database files — too large for GitHub, recreate with ETL
+data/db/*.db
+*.db
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Large raw data files (upload to a separate data store)
+# data/raw/*.csv  ← Keep raw CSVs in git for this project
+
+# Secrets / API keys — never commit these
+.env
+secrets.py
+config_local.py
+
+# Power BI temp files
+~$*.pbix
+
+# Reports (regenerate from scripts)
+# reports/Final_Report.pdf  ← Keep final report in git

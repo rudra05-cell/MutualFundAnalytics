@@ -168,7 +168,7 @@ def run_metrics():
     print(metrics[cols].head(10).to_string())
 
     print(f"\n{sep}")
-    print("  Day 4: Metrics Complete")
+    print("  Day 4: Metrics Complete ✅")
     print(sep)
     return metrics
 
